@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 from datetime import datetime, date, time
-image = Image.open('i.jpg')
+image = Image.open('logo.jpg')
 st.image(image, '')
 model = pickle.load(open("flight_rf.pkl", "rb"))
 def team_report():
